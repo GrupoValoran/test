@@ -59,3 +59,25 @@ pareja. Finalmente devolver la nueva cadena.
 - entrada: ```()(()``` - salida: ```()()```
 - entrada: ```)(``` - salida: ``` ``` *(una cadena vacía)*
 - entrada: ```((()``` - salida: ```()```
+
+
+### Problema 04
+
+Usando PHP, crear una clase llamada **Fibonacci** que tenga un método llamado
+build que reciba como parametro un entero. 
+Dentro de esta clase debes crear una funcion recursiva para calcular la serie de fibonacci hasta la posicion N comenzando desde 0
+Esta funcion sera llamada por el metodo build con el parametro ingresado.
+El termino maximo a calcular sera el 12
+
+**Indicaciones**
+
+- Crear la solución en un solo archivo llamado Fibonacci.php
+- El método build devuelve la salida del algoritmo
+- Considerar solamente numeros enteros
+- Considerar que el maximo numero de terminos es 12 si es mayor lanzar una excepcion "El numero es muy grande"
+- Considerar que el menor termino es 0 con resultado 0
+
+**Ejemplos**
+- entrada: 5 - salida: 5
+- entrada: 6 - salida: 8
+- entrada: 7 - salida: 13
