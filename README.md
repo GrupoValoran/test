@@ -119,3 +119,43 @@ Hasta un maximo de 8 x 8 y un minimo de 3 x 3
 4  4  4  4
 
 4  4  4  4
+
+
+
+PARTE 02 : Crear una pagina web
+---
+
+Utilizando la siguiente api como referencia https://random-data-api.com/api/v2/users?size=100
+Dicho api te regresa una lista de usuarios e informacion de ellos
+
+Realiza una pagina que te enliste el resultado del api que anteriormente se mostraba
+La pantalla donde muestra la informacion debe cumplir con lo siguiente
+  - Una tabla donde se muetra la informacion:
+    - Nombre
+    - Apellido
+    - Correo
+    - *Acciones*
+  - La tabla debe contener una columna que se llame "Acciones" donde cada fila debe tener dos botones
+
+
+    -  Ver mas: Este boton te debe de abrir un dialogo u otra pantalla donde muestra mas detalle del usuario
+      - Avatar
+      - Nombre
+      - Apellido
+      - Correo
+      - Usuario
+      - Numero de telefono
+
+
+    -  Editar: Este boton te abrira un dialogo u otra pantalla para poder editar la informacion del usuario con un boton de guardar: Todos los campos son requeridos validar que todos los campos son validos
+      - Nombre
+      - Apellido
+      - Correo
+      - Usuario
+      - Numero de telefono
+
+
+    -  Eliminar: Este boton te debe mostrar un dialogo de conformación para eliminar el usuario
+
+Las acciones eliminar te debe mostrar en consola el id del usuario a eliminar
+Las acciones Editar al pulsar el boton guardar debe de validarte los campos y si son validos poner en consola los campos a guardar
