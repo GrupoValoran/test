@@ -157,5 +157,6 @@ La pantalla donde muestra la informacion debe cumplir con lo siguiente
 
     -  Eliminar: Este boton te debe mostrar un dialogo de confirmación para eliminar el usuario
 
-Las acciones eliminar te debe mostrar en consola el id del usuario a eliminar
-Las acciones Editar al pulsar el boton guardar debe de validarte los campos y si son validos poner en consola los campos a guardar
+La accione Eliminar te debe mostrar en consola el id del usuario a eliminar
+
+La accione Editar al pulsar el boton guardar debe de validarte los campos y si son validos poner en consola los campos a guardar
