@@ -125,6 +125,10 @@ Hasta un maximo de 8 x 8 y un minimo de 3 x 3
 PARTE 02 : Crear una pagina web
 ---
 
+Consideraciones:
+
+- Se puede utilizar cualquier lenguage o framework para realizar la pagina
+
 Utilizando la siguiente api como referencia https://random-data-api.com/api/v2/users?size=100
 Dicho api te regresa una lista de usuarios e informacion de ellos
 
