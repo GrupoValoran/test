@@ -81,3 +81,41 @@ El termino maximo a calcular sera el 12
 - entrada: 5 - salida: 5
 - entrada: 6 - salida: 8
 - entrada: 7 - salida: 13
+
+
+
+
+### Problema 05
+
+Usando PHP, crear una clase llamada **Matriz** que tenga un método llamado
+build que reciba como parametro un entero. 
+Dentro de este metodo deberas crear un algoritmo que te imprima una matriz de NxN tomando como caracter por cada punto el numero que ingresaste 
+Hasta un maximo de 8 x 8 y un minimo de 3 x 3
+
+**Indicaciones**
+
+- Crear la solución en un solo archivo llamado Matriz.php
+- El método build imprime en consola la matriz resultante
+- Considerar solamente numeros enteros
+- Considerar que el maximo numero 8 y minimo 3, de lo contrario lanzar una excepcion "El numero es muy grande o muy pequeño"
+
+**Ejemplos**
+- entrada: 3
+- salida:
+
+3   3   3
+
+3   3   3
+
+3   3   3
+
+- entrada: 4
+- salida:
+
+4  4  4  4
+
+4  4  4  4
+
+4  4  4  4
+
+4  4  4  4
